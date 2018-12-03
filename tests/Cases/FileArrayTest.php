@@ -1,6 +1,6 @@
 <?php
 
-namespace Charles\Helper\Tests;
+namespace CharlesTest\Cases;
 
 use Charles\Helper\ArrayHelper;
 use Charles\Helper\File\ArrayHelper as FileArrayHelper;
@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @author dusong<1264735045@qq.com>
  */
-class ArrayTest extends AbstractTestCase
+class FileArrayTest extends AbstractTestCase
 {
 
     /**

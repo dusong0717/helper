@@ -1,6 +1,6 @@
 <?php
 
-namespace Charles\Helper\Tests;
+namespace CharlesTest\Cases;
 
 use PHPUnit\Framework\TestCase;
 

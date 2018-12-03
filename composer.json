@@ -1,8 +1,13 @@
 {
     "name": "dusong0717/helper",
+    "type": "library",
+    "keywords": [
+        "php",
+        "class",
+        "helper"
+    ],
     "description":  "php helper function",
-    "keywords": ["php", "function"],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "dusong",
@@ -14,12 +19,26 @@
     "require": {
         "php": ">=7.0.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7"
-    },
     "autoload": {
         "psr-4": {
             "Charles\\Helper\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CharlesTest\\Cases\\": "tests/Cases"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml"
     }
 }
